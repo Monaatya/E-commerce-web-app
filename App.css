@@ -1,0 +1,97 @@
+/* Navbar */
+.navbar-nav a{
+    font-size: 18px;
+}
+/*login &&& register*/
+.form_reg{
+    box-shadow: #c2b8bf 5px 5px 100px inset;
+    color: #3b0351;
+    text-align: center;
+    text-shadow: #f377c8;
+    margin: 50px auto;
+    border-radius: 50px;
+}
+.form_reg table{
+    border-radius:50px;
+    margin: 20px auto;
+}
+ .form_reg input{
+    border-radius: 50px;
+    border: #3b0351 solid;
+    box-shadow:#3b0351 5px 5px 100px inset;
+    margin: 10px 0;
+
+}
+.form_reg input[type="submit"]{
+    background-color:#3b0351;
+    color: #f377c8;
+    transition: 1s;
+    transform: scale(1.2);
+    border-radius:50px;
+    margin: 3px auto;
+    width: 100px;
+}
+.form_reg input[type="reset"]{
+    background-color:#3b0351;
+    color: #f377c8;
+    transition: 1s;
+    transform: scale(1.2);
+    border-radius:50px;
+    margin-left:30px;
+    width: 100px;
+}
+.form_reg input[type="submit"]:hover{
+    background-color: #f377c8;
+    color: #3b0351;
+    transform: scale(1.4);   
+}
+
+
+.form_reg input[type="reset"]:hover{
+    background-color: #f377c8;
+    color: #3b0351;
+    transform: scale(1.4);
+}
+
+.form_reg input,
+.form_reg select,
+.form_reg table,
+.form_reg textarea {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: #5d077f;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.form_reg th {
+    border: none;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    font: normal normal bold 19px/2 Verdana, Geneva, sans-serif;
+    color: #3b0351;
+   
+    text-align: left;
+    width: 100px;
+}
+
+.form_reg span {
+    font: normal normal bold 14px/2 Verdana, Geneva, sans-serif;
+    color: red;
+}
+
+.Error {
+    background: rgba(255, 221, 221, 1);
+}
+
+.Espan {
+    font: normal normal bold 8px/2 Verdana, Geneva, sans-serif;
+    color: red;
+}

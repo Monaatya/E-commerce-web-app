@@ -1,0 +1,87 @@
+
+ .img_about{
+    width: 100%;
+    min-height:90vh;
+
+ }
+ .word{
+    white-space: nowrap;
+    overflow: hidden;
+    color:#8f1cbd;
+    width:5em;
+   position:absolute;
+   top: 30%;
+   left:45%;
+    animation: type 3s steps(100,end); 
+}
+
+@keyframes type{ 
+    from { 
+         width: 0; 
+         } 
+ }
+
+
+ .myword{
+    position:absolute;
+    top: 50%;
+    left:30%;
+     font-weight:700;
+     letter-spacing:1px;
+     max-height: fit-content;
+ }
+ .card2{
+    background-color: #cecece ;
+    color: black;
+    opacity:.8;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.card2:hover{
+    opacity:1;
+    transform: scale(1.1);
+}
+hr{
+    width: 500px;
+    background-color: #3e1f4a;
+    border: solid  #592271 4px;
+    margin:  10px auto;
+    border-radius: 2px;
+
+
+} 
+
+footer{
+    box-shadow: #bc5de1 5px 5px 100px inset;
+    height: 200px;
+    margin-bottom:0px;
+}
+footer ul{
+    list-style: none;
+}
+.footerfollow ul li{
+    display: inline-block;
+     margin:2px 7px;
+}
+.footerfollow ul li a{
+    padding-right: 2px;
+    font-size: 20px;
+    color: #ab53ce;
+    padding-bottom: 5px;
+}
+
+.footer-h6{
+   font-size: 18px;
+   font-family: serif;
+   font-weight: bold;
+   color: #3b0351;
+}
+.footerpages a{
+    color: #ab53ce;
+    font-size:20px;
+    padding-bottom:5px;
+}
+.footerpages a:hover,.footerfollow ul li a:hover{
+    color: #3b0351;
+}
